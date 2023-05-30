@@ -1,4 +1,16 @@
-.navbar{
+.containerMenu{
+    width: 100%;
+    display: flex;
+    background-color: #403c3c;
+    padding: 1em;
+    justify-content: center;
+    position: fixed;
+    
+}
+
+
+.navbar.active{
+    width: 100%;
     display: flex;
     position: sticky;
     background-color: #403c3c;
@@ -6,8 +18,20 @@
     
 }
 
+.teste{
+    justify-content: end;
+    list-style: none;
+    display: flex;
+
+}
+
+
+.navbar.inactive{
+    visibility: hidden;
+}
+
 .listTitle{
-    
+    position: relative;
     list-style: none;
     
 }
@@ -28,7 +52,7 @@
     color: #d7d0d0;
 }
 
-.bolsaLogo{
+.menuLogo{
     width: 20px;
     height: 20px;
 }   

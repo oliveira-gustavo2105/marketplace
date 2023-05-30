@@ -4,8 +4,8 @@ import Contact from './components/pages/Contact'
 import Company from './components/pages/Company'
 import Testes from './components/pages/Testes'
 
-import Container from './components/layout/Container'
-import NavBar from './components/layout/NavBar'
+import Container from './components/layout/Container/Container'
+import NavBar from './components/layout/NavBar/NavBar'
 
 function App() {
   return (

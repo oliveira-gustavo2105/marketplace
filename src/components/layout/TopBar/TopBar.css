@@ -1,0 +1,9 @@
+.containerMenu{
+    width: 100%;
+    display: flex;
+    background-color: #403c3c;
+    padding: 1em;
+    justify-content: center;
+    position: fixed;
+    
+}
