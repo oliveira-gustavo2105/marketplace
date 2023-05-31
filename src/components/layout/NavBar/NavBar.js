@@ -20,27 +20,25 @@ function NavBar(){
             <nav className="containerMenu">
                 
                 <ul class="listTitle">
-                    <li class="list">
+                    <li className="HomeTeste">
                     <Link class="link" to="/">Home</Link>
+                    </li>
                     <li>
                     <Link class="link" to="/contact">Contato</Link>
                     </li>
                     <li>
                     <Link class="link" to="/company"> Empresa</Link>
                     </li>
+                    <li>
                     <Link class="link" to="/testes"> Testes</Link>
                     </li>
-                </ul> 
-                
-                
-                <ul class="teste">
-                    <li>    
-                        <Link class="link" to="/company"> Cadastro</Link>
+                    <li>
+                    <Link class="link" to="/company"> Login</Link>
                     </li>
                     <li>
-                        <Link class="link" to="/testes"> Login</Link>
-                    </li>    
-                </ul>
+                    <Link class="link" to="/testes"> Cadastros</Link>
+                    </li>
+                </ul> 
                                      
             </nav>
 

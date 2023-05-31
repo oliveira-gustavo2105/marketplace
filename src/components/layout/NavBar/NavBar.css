@@ -31,13 +31,13 @@
 }
 
 .listTitle{
-    position: relative;
+    display: flex;
     list-style: none;
-    
 }
 
 .list{
     display: flex;
+    list-style: none;
 }
 
 .link{

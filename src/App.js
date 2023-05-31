@@ -6,6 +6,7 @@ import Testes from './components/pages/Testes'
 
 import Container from './components/layout/Container/Container'
 import NavBar from './components/layout/NavBar/NavBar'
+import TopBar from "./components/layout/TopBar/TopBar";
 
 function App() {
   return (
