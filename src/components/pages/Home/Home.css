@@ -1,0 +1,41 @@
+.homePage{
+    width: 100%;
+    margin-top: 23vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.homePage2{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.imageHome{
+    padding: 1em;
+}
+
+
+
+.titleHome{
+    color: white;
+    width: 120px;
+    background-color: red;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Rye', cursive;
+    border: 0.5px solid white;
+}
+
+
+.drinks{
+    width: 120px;
+    height: 120px;
+}
+
+.porcoes{
+    width: 120px;
+    height: 120px;
+}

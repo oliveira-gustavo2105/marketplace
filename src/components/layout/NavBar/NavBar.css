@@ -1,10 +1,26 @@
 .containerMenu{
     width: 100%;
-    display: flex;
-    background-color: #403c3c;
-    padding: 1em;
-    justify-content: center;
-    position: fixed;
+    background-color: black;
+    display: grid;
+    position: fixed;    
+}
+
+.titleLogo{
+    color: white;
+    margin: 0 auto;
+    font-family: 'Rye', cursive;
+}
+
+.titleBanner{
+    background-color: red;
+    color: white;
+    margin: 0 auto;
+    border: 1px solid white;
+    padding-bottom: 10px;
+    padding-left: 4.688rem;
+    padding-right: 4.688rem;
+    padding-top: 10px ;
+    font-family: 'Rye', cursive;
     
 }
 

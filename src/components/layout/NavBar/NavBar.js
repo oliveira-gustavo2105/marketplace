@@ -18,8 +18,17 @@ function NavBar(){
         <div>
                
             <nav className="containerMenu">
+            <div className="containerTeste">
+                <button onClick={onClick} className="menu-btn">
+                    <img className="menuLogo" 
+                    src="https://www.clipartmax.com/png/full/36-365828_navbar-toggle-icon-menu-hamburger-png-white.png" 
+                    alt="menu" />
+                </button>
+            </div>
+            <h3 className="titleLogo">La Drink</h3>
+            <h1 className="titleBanner">De La Arte</h1>
                 
-                <ul class="listTitle">
+                {/* <ul class="listTitle">
                     <li className="HomeTeste">
                     <Link class="link" to="/">Home</Link>
                     </li>
@@ -38,17 +47,17 @@ function NavBar(){
                     <li>
                     <Link class="link" to="/testes"> Cadastros</Link>
                     </li>
-                </ul> 
+                </ul>  */}
                                      
             </nav>
 
-            {/* <div className="containerTeste">
+            <div className="containerTeste">
                 <button onClick={onClick} className="menu-btn">
                     <img className="menuLogo" 
                     src="https://www.clipartmax.com/png/full/36-365828_navbar-toggle-icon-menu-hamburger-png-white.png" 
                     alt="menu" />
                 </button>
-            </div> */}
+            </div>
                 <nav className={`navbar ${isActive ? "active" : "inactive"}`} ref={dropDownRef}>
 
                     <ul class="listTitle">

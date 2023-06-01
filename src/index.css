@@ -9,7 +9,7 @@
 html,
 body,
 #root {
-  background-color: #d7d0d0;
+  background-color: black;
   height: 100%;
 }
 
@@ -19,8 +19,8 @@ link{
 
 .title{
   margin: 0 auto;
-  color: #4A1601;
-  margin-top: 4vw;
+  color: red;
+  margin-top: 15vw;
 }
 
 
